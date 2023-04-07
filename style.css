@@ -1,0 +1,192 @@
+/*
+Theme Name: My Theme
+Author: Your Name
+Author URI: Your website URL
+Description: A barebones WordPress theme with 2 sidebars
+Version: 1.0
+*/
+
+/* =Global
+-------------------------------------------------------------- */
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin: 0 !important;
+	padding: 0 !important
+}
+a {
+	color: #0073aa;
+	text-decoration: none
+}
+h1 {
+	color: #082eb7;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 10px
+}
+a hover {
+	text-decoration: underline
+}
+.site-header {
+	background-color: #FFFFFF;
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	z-index: 4
+}
+.site-title {
+	font-size: 28px;
+	margin: 0
+}
+.site-description {
+	font-size: 16px;
+	margin: 0
+}
+.site-main {
+	float: left;
+	margin-left: 200px;
+	margin-top: 130px;
+	width: 690px
+}
+ul {
+	list-style: none;
+	padding: 0
+}
+li {
+	background-image: url('/wp-content/themes/mytheme/images/arrow.png');
+	background-repeat: no-repeat;
+	background-position: left center
+}
+ul {
+	list-style-type: none
+}
+li {
+	position: relative;
+	display: list-item;
+	text-align: -webkit-match-parent;
+	display: list-item;
+	text-align: -webkit-match-parent
+}
+#primary {
+	margin-right: 20px
+}
+#secondary-left {
+	position: fixed;
+	top: 125px;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	background-color: #6378af;
+	width: 158px;
+	height: 2510px;
+	font-size: 15px;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-top: 20px;
+	padding-left: 20px;
+	line-height: 26px
+}
+#secondary-right {
+	position: absolute;
+	top: 128px;
+	left: 921px;
+	z-index: 10;
+	background-color: #CCCCCC;
+	width: 178px;
+	height: 25010px
+}
+.widget {
+	margin-bottom: 0px;
+	padding: 0px;
+	background-color: #f2f2f2
+}
+.widget-title {
+	margin-top: 0;
+	margin-bottom: 0px;
+	font-size: 18px
+}
+strong {
+	color: #082eb7
+}
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section {
+	padding: 0;
+	border: 0
+}
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Century Gothic','Muli', sans-serif;
+	font-size: 13px;
+	background-color: #ffffff
+}
+dt {
+	font-weight: 700
+}
+ul {
+	padding-left: 0rem;
+	list-style-type: none
+}
+ul li {
+	padding-left: 2rem;
+	background-image: url('/wp-content/themes/mytheme/images/arrow.png');
+	background-repeat: no-repeat
+}
+#slideshow{
+	background: url(res/iphone_small.png) no-repeat;
+	height: 512px;
+	margin: 50px 25px auto;
+	position: relative;
+	width: 257px
+}
+#slideshow ul{
+	height: 300px;
+	left: 33px;
+	list-style: none outside none;
+	overflow: hidden;
+	position: absolute;
+	top: 78px;
+	width: 257px
+}
+#slideshow li{
+	position: absolute;
+	display: none;
+	z-index: 10
+}
+#slideshow li: first-child{
+	display: block;
+	z-index: 1000
+}
+#slideshow .slideActive{
+	z-index: 1000
+}
+#slideshow canvas{
+	display: none;
+	position: absolute;
+	z-index: 100
+}
+#slideshow .arrow{
+	height: 64px;
+	width: 45px;
+	position: absolute;
+	background: url('res/arrows.png') no-repeat;
+	top: 50%;
+	margin-top: -55px;
+	cursor: pointer;
+	z-index: 5000;
+	margin-left: 240px;
+	margin-right: 240px
+}
+p {
+	text-align: justify;
+	text-justify: inter-word;
+	color: #666666
+}
